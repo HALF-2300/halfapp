@@ -1,14 +1,10 @@
 import './App.css';
+import LoginSignup from './Components/LoginSignup/LoginSignup';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Half App Loading...
-        </p>
-        
-      </header>
+    <div>
+      <LoginSignup/>
     </div>
   );
 }

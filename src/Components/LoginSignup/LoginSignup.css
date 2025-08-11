@@ -18,7 +18,7 @@
 }
 
 .text{
-    color: #1f559b;
+    color: #4C9BB0;
     font-size: 48px;
     font-weight: 600;
 }
@@ -26,7 +26,7 @@
 .underline{
     width: 80px;
     height: 4px;
-    background: #1f559b;
+    background: #4C9BB0;
     text-decoration: underline;
     border-radius: 8px;
 }
@@ -59,6 +59,7 @@
     width: 400px;
     height: 50px;
     border: none;
+    outline: none;
     background: whitesmoke;
     font-size: 18px;
 }
@@ -73,7 +74,7 @@
 
 .forgot-password span{
     font-weight: 600;
-    color: #1f559b;
+    color: #4C9BB0;
     cursor: pointer;
 }
 
@@ -90,7 +91,7 @@
     align-items: center;
     width: 200px;
     height: 60px;
-    background: #1f559b;
+    background: #4C9BB0;
     color: white;
     font-size: 20px;
     font-weight: 500;

@@ -103,6 +103,7 @@ button{
     padding-right: 80px;
     margin: 20px 5px;
     gap: 10px;
+    cursor: pointer;
 }
 
 .submit{

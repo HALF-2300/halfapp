@@ -14,7 +14,8 @@
     align-items: center;
     gap: 10px;
     width: 100%;
-    margin-top: 72px;
+    margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 .text{
@@ -32,7 +33,7 @@
 }
 
 .inputs{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -53,6 +54,11 @@
     height: 25px;
     margin-left: 20px;
     margin-right: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
 }
 
 .input input{
@@ -78,11 +84,25 @@
     cursor: pointer;
 }
 
+.error{
+    color: #ff0033;
+    width: 100%;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
 .submit-container{
     display: flex;
     justify-content: center;
     margin: 60px auto;
     gap: 40px;
+}
+.logsign-container{
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+    margin: 20px 5px;
+    gap: 10px;
 }
 
 .submit{
@@ -97,6 +117,16 @@
     font-weight: 500;
     border-radius: 40px;
     cursor: pointer;
+}
+
+.LogSign{
+    align-items: end;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.blue{
+    color: #4C9BB0;
 }
 
 .gray{
